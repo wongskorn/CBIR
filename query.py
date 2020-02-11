@@ -32,6 +32,7 @@ if __name__ == '__main__':
 
     try:
         mthd = sys.argv[1].lower()
+        query_idx = int(sys.argv[2].strip())
     except IndexError:
         print("usage: {} <method>".format(sys.argv[0]))
         print("supported methods:\ncolor, daisy, edge, gabor, hog, vgg, resnet")
