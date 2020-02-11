@@ -2,15 +2,15 @@
 from __future__ import print_function
 
 import sys
-from src.color import Color
-from src.daisy import Daisy
+from color import Color
+from daisy import Daisy
 from DB import Database
-from src.edge import Edge
+from edge import Edge
 from evaluate import infer
-from src.gabor import Gabor
-from src.HOG import HOG
-from src.resnet import ResNetFeat
-from src.vggnet import VGGNetFeat
+from gabor import Gabor
+from HOG import HOG
+from resnet import ResNetFeat
+from vggnet import VGGNetFeat
 
 depth = 5
 d_type = 'd1'
