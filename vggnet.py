@@ -11,8 +11,8 @@ import torch.nn as nn
 from six.moves import cPickle
 from torchvision.models.vgg import VGG
 
-from src.DB import Database
-from src.evaluate import evaluate_class
+from DB import Database
+from evaluate import evaluate_class
 
 '''
   downloading problem in mac OSX should refer to this answer:

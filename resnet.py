@@ -11,8 +11,8 @@ import torch.utils.model_zoo as model_zoo
 from six.moves import cPickle
 from torchvision.models.resnet import BasicBlock, Bottleneck, ResNet
 
-from src.DB import Database
-from src.evaluate import evaluate_class
+from DB import Database
+from evaluate import evaluate_class
 
 '''
   downloading problem in mac OSX should refer to this answer:

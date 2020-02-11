@@ -9,9 +9,9 @@ import numpy as np
 
 from src.color import Color
 from src.daisy import Daisy
-from src.DB import Database
+from DB import Database
 from src.edge import Edge
-from src.evaluate import evaluate_class
+from evaluate import evaluate_class
 from src.gabor import Gabor
 from src.HOG import HOG
 from src.resnet import ResNetFeat

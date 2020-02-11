@@ -9,8 +9,8 @@ import numpy as np
 import scipy.misc
 from six.moves import cPickle
 
-from src.DB import Database
-from src.evaluate import distance, evaluate_class
+from DB import Database
+from evaluate import distance, evaluate_class
 
 # configs for histogram
 n_bin = 12        # histogram bins

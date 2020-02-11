@@ -4,9 +4,9 @@ from __future__ import print_function
 import sys
 from src.color import Color
 from src.daisy import Daisy
-from src.DB import Database
+from DB import Database
 from src.edge import Edge
-from src.evaluate import infer
+from evaluate import infer
 from src.gabor import Gabor
 from src.HOG import HOG
 from src.resnet import ResNetFeat

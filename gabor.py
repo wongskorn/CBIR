@@ -12,8 +12,8 @@ from six.moves import cPickle
 from skimage import color
 from skimage.filters import gabor_kernel
 
-from src.DB import Database
-from src.evaluate import *
+from DB import Database
+from evaluate import *
 
 theta = 4
 frequency = (0.1, 0.5, 0.8)
