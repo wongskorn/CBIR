@@ -87,7 +87,7 @@ if not os.path.exists(cache_dir):
 
 class Gabor:
 
-    def gabor_histogram(self, input, type=h_type, n_slice=n_slice, normalize=True):
+    def histogram(self, input, type=h_type, n_slice=n_slice, normalize=True):
         ''' count img histogram
 
           arguments
@@ -213,7 +213,7 @@ class Gabor:
             data = db.get_data()
             for d in data.itertuples():
                 d_img, d_cls = getattr(d, "img"), getattr(d, "cls")
-                d_hist = self.gabor_histogram(
+                d_hist = self.histogram(
                     d_img, type=h_type, n_slice=n_slice)
                 samples.append({
                     'img':  d_img,
